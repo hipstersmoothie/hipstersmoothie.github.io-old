@@ -447,6 +447,7 @@ fieldset[disabled] .btn-white.active {
   height: 400px;
   min-width: 400px;
   margin-top: 30px;
+  margin-bottom: 90px;
 }
 .smoothie:hover {
   background-image: url('COLOR/tiltsmoothie.png');
