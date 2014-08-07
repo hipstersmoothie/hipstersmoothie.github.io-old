@@ -363,14 +363,6 @@ fieldset[disabled] .btn-white.active {
   left: 0;
   height: 35px;
 }
-.socialLink {
-  width: 121px;
-  height: 120px;
-}
-.centered {
-  margin: auto;
-  width: 1000px;
-}
 .talk {
   font-size: 100px;
   line-height: 350px;
@@ -379,57 +371,65 @@ fieldset[disabled] .btn-white.active {
 .buffer {
   height: 230px;
 }
-@media screen and (max-width: 1354px) {
+.socialLink {
+  width: 61px;
+  height: 61px;
+  background-size: 61px 122px;
+}
+.centered {
+  width: 357px;
+}
+.contactList li {
+  padding-right: 3px;
+}
+*.socialLink:hover {
+  background-position: 0 -61px;
+}
+@media screen and (min-width: 940px) {
   .socialLink {
     width: 80px;
     height: 80px;
-    background-size: 80px 80px;
+    background-size: 80px 160px;
   }
   .centered {
-    max-width: 500px;
+    width: 500px;
+  }
+  *.socialLink:hover {
+    background-position: 0 -80px;
   }
 }
-@media screen and (max-width: 940px) {
+@media screen and (min-width: 1354px) {
   .socialLink {
-    width: 61px;
-    height: 61px;
-    background-size: 61px 61px;
+    width: 121px;
+    height: 120px;
+    background-size: 121px 240px;
   }
   .centered {
-    max-width: 357px;
+    margin: auto;
+    width: 750px;
   }
-  .contactList li {
-    padding-right: 3px;
+  *.socialLink:hover {
+    background-position: 0 -120px;
+  }
+}
+@media screen and (max-width: 767px) {
+  .centered {
+    margin: auto;
   }
 }
 .facebook {
-  background-image: url('BW/largeFB.png');
-}
-.facebook:hover {
-  background-image: url('COLOR/largeFB.png');
+  background-image: url('Color/largeFB.png');
 }
 .soundcloud {
-  background-image: url('BW/largeSC.png');
-}
-.soundcloud:hover {
   background-image: url('COLOR/largeSC.png');
 }
 .twitter {
-  background-image: url('BW/largeTWIT.png');
-}
-.twitter:hover {
   background-image: url('COLOR/largeTWIT.png');
 }
 .github {
-  background-image: url('BW/largeCAT.png');
-}
-.github:hover {
   background-image: url('COLOR/largeCAT.png');
 }
 .linkedin {
-  background-image: url('BW/largeIN.png');
-}
-.linkedin:hover {
   background-image: url('COLOR/largeIN.png');
 }
 .mail:hover {
@@ -443,13 +443,14 @@ fieldset[disabled] .btn-white.active {
   background-image: url('COLOR/normalsmoothie.png');
   background-repeat: no-repeat;
   background-position: top center;
-  background-size: 380px 380px;
-  height: 400px;
-  min-width: 400px;
+  background-size: 380px 760px;
+  height: 380px;
+  width: 380px;
   margin-top: 30px;
+  margin: auto;
 }
 .smoothie:hover {
-  background-image: url('COLOR/tiltsmoothie.png');
+  background-position: center -380px;
 }
 @media screen and (max-width: 992px) {
   .pic {
