@@ -422,6 +422,19 @@ fieldset[disabled] .btn-white.active {
     font-size: 60px;
   }
 }
+.smoothie {
+  background-image: url('COLOR/normalsmoothie.png');
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: 380px 760px;
+  height: 380px;
+  width: 380px;
+  margin-top: 30px;
+  margin: auto;
+}
+.smoothie:hover {
+  background-position: center -380px;
+}
 @media screen and (max-width: 344px) {
   .centered {
     width: 100%;
@@ -457,19 +470,6 @@ fieldset[disabled] .btn-white.active {
   -o-transform: rotateZ(40deg);
   -ms-transform: rotateZ(40deg);
   transform: rotateZ(40deg);
-}
-.smoothie {
-  background-image: url('COLOR/normalsmoothie.png');
-  background-repeat: no-repeat;
-  background-position: top center;
-  background-size: 380px 760px;
-  height: 380px;
-  width: 380px;
-  margin-top: 30px;
-  margin: auto;
-}
-.smoothie:hover {
-  background-position: center -380px;
 }
 @media screen and (max-width: 992px) {
   .pic {
