@@ -398,7 +398,7 @@ fieldset[disabled] .btn-white.active {
     background-position: 0 -80px;
   }
 }
-@media screen and (min-width: 1354px) {
+@media screen and (min-width: 1280px) {
   .socialLink {
     width: 121px;
     height: 120px;
@@ -415,6 +415,25 @@ fieldset[disabled] .btn-white.active {
 @media screen and (max-width: 767px) {
   .centered {
     margin: auto;
+  }
+}
+@media screen and (max-width: 500px) {
+  .talk {
+    font-size: 60px;
+  }
+}
+@media screen and (max-width: 344px) {
+  .centered {
+    width: 100%;
+  }
+  .smoothie {
+    width: 100%;
+    background-size: 280px 560px;
+    height: 280px;
+    width: 280px;
+  }
+  .smoothie:hover {
+    background-position: center -280px;
   }
 }
 .facebook {
